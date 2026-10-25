@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <!--
+    RideHC "HC badge" (docs/brand.md), traced from docs/brand/concept-06-hc-badge.png.
+    Source of truth for the mark: edit here, then run  swift app/RideHC/Brand/make-assets.swift
+    Ink is currentColor (ink #121212 on light, paper #F6F4EE on dark); the tick is
+    always the accent #E0412F.
+
+    Geometry (1000-unit canvas, centre 500,500; angles clockwise from 12 o'clock):
+    - Ring: outer r 460 (92 % of the canvas), stroke 62, flat radial ends; gap from
+      30.3° to 55.3° (25° wide, centred at 42.8°, where the reference has it).
+    - Tick: 74-unit square, centre on the 42.8° radius at r 435.5 (just outside the
+      ring's centreline r 429), turned 42.8° so its sides run radial/tangential.
+    - Monogram: letter stroke 82; letters 504 tall, spanning x 226-776 with a 36 gap.
+      H: left stem's outer corners cut by a slightly convex chamfer (r 154);
+      right stem square; crossbar centred. C: square-cornered counter, flat terminals,
+      arms drawn as cubic curves fitted to the reference edge.
+  -->
+  <g fill="currentColor">
+    <path d="M 878.19 238.13 A 460 460 0 1 1 732.08 102.84 L 700.8 156.37 A 398 398 0 1 0 827.21 273.43 Z"/>
+    <path d="M 308 283 L 308 459 L 408 459 L 408 248 L 490 248 L 490 752 L 408 752 L 408 541 L 308 541 L 308 717 A 154 154 0 0 1 226 641 L 226 359 A 154 154 0 0 1 308 283 Z"/>
+    <path d="M 526 330 C 526 276.7 555.4 248 610 248 C 643.2 248 776 314.15 776 395 L 776 434 L 694 434 L 694 403 C 694 378.85 646.7 334 608 334 L 608 666 C 646.7 666 694 621.15 694 597 L 694 566 L 776 566 L 776 605 C 776 685.85 643.2 752 610 752 C 555.4 752 526 723.3 526 670 Z"/>
+  </g>
+  <rect x="-37" y="-37" width="74" height="74" fill="#E0412F" transform="translate(795.9 180.46) rotate(42.8)"/>
+</svg>

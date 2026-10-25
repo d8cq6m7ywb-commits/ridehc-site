@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support — RideHC</title>
+<meta name="description" content="RideHC support: what you need, how sensors connect, where your files are.">
+<link rel="icon" href="/hc-badge.svg" type="image/svg+xml">
+<style>
+  :root { --ink: #15181d; --muted: #5b6370; --accent: #f0453b; --rule: #e6e8eb; --bg: #ffffff; }
+  @media (prefers-color-scheme: dark) { :root { --ink: #eef0f3; --muted: #a2a9b4; --rule: #2a2f37; --bg: #0e1013; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 40px 16px 72px; }
+  nav { font-size: 14px; color: var(--muted); margin-bottom: 28px; }
+  nav a { color: var(--muted); }
+  h1 { font-size: 28px; line-height: 1.2; margin: 0 0 6px; }
+  h2 { font-size: 20px; margin: 32px 0 8px; }
+  p { margin: 0 0 14px; }
+  .muted { color: var(--muted); }
+  ul { padding-left: 20px; margin: 0 0 14px; }
+  li { margin-bottom: 6px; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .todo { background: #fff4e5; color: #7a4b00; border-radius: 6px; padding: 2px 6px; }
+  footer { border-top: 1px solid var(--rule); margin-top: 48px; padding-top: 16px; font-size: 14px; color: var(--muted); display: flex; flex-wrap: wrap; gap: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <nav><a href="/">ridehc</a> / Support</nav>
+  <h1>Support</h1>
+
+  <h2>What you need</h2>
+  <ul>
+    <li>An iPhone running iOS 17 or later.</li>
+    <li>A power source for workouts with power targets: a smart trainer, pedals, a crank or hub power meter, or a studio bike that broadcasts power. A workout written by heart rate needs only a heart-rate monitor.</li>
+    <li>A heart-rate strap, or a watch that broadcasts heart rate over Bluetooth.</li>
+    <li>Optional: a speed and cadence sensor, a running footpod, a core-temperature sensor, a muscle-oxygen sensor.</li>
+  </ul>
+
+  <h2>Connecting sensors</h2>
+  <p>Wake each sensor first — turn the pedals, put the strap on — then scan on the Devices tab. The list shows fitness sensors first, strongest signal at the top; other Bluetooth devices sit under their own heading. In a room of identical bikes, the strongest signal is usually the one you are sitting on.</p>
+  <p>A sensor that is connected but sends nothing for 15 seconds is reconnected once automatically; if it stays silent, the Devices tab says so. Watches connected to another app on the phone sometimes need this.</p>
+
+  <h2>Smart trainers</h2>
+  <p>In ERG mode the trainer holds the workout's target power. A low-cadence stall lowers the target for a moment so you can recover. On a heart-rate step the trainer holds watts you set with the −5 W and +5 W buttons, or follows your heart rate automatically when Auto is on. In Target mode the trainer is not controlled and you hold the target yourself.</p>
+
+  <h2>Your files</h2>
+  <p>Every ride is saved on the phone and exported as a FIT file, a CSV file and a JSON archive, with a raw Bluetooth log. Share them from the ride's summary with AirDrop, Files or any app. The FIT file opens in Garmin Connect, Strava, intervals.icu and similar tools.</p>
+
+  <h2>Something went wrong</h2>
+  <p>Send the ride's raw log and CSV with a short description of what happened. The raw log holds every Bluetooth message, which is what makes sensor problems diagnosable.</p>
+  <p><span class="todo">[contact address — Fred to confirm before publishing]</span></p>
+
+  <footer>
+    <a href="/">ridehc</a>
+    <a href="/privacy/">Privacy</a>
+    <span>© 2026 Frederic Simon</span>
+  </footer>
+</main>
+</body>
+</html>
