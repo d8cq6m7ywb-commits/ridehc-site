@@ -25,10 +25,9 @@ build step, no framework: three HTML files and the brand badge.
 
 ## Before publishing
 
-Both `privacy/index.html` and `support/index.html` carry a highlighted
-`[contact address — Fred to confirm]` placeholder: replace it with the
-address support mail should reach. The privacy page's "Last updated" date
-and version line should match the release.
+The contact address on both pages is `info@ridehc.com` (Name.com email
+forwarding, set up 2026-10-25). The privacy page's "Last updated" date and
+version line should match the release.
 
 ## Rules
 
