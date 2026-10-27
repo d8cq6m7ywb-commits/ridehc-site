@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Privacy — RideHC</title>
-<meta name="description" content="RideHC privacy policy: everything stays on your phone. No account, no analytics, no tracking.">
+<meta name="description" content="RideHC privacy policy: your rides stay on your phone unless you export a file or send a ride to Grepiac. No account, no analytics, no tracking.">
 <link rel="icon" href="/hc-badge.svg" type="image/svg+xml">
 <style>
   :root { --ink: #15181d; --muted: #5b6370; --accent: #f0453b; --rule: #e6e8eb; --bg: #ffffff; }
@@ -29,10 +29,10 @@
 <main>
   <nav><a href="/">ridehc</a> / Privacy</nav>
   <h1>Privacy policy</h1>
-  <p class="muted">Applies to RideHC for iPhone, version 1.0. Last updated 25 October 2026.</p>
+  <p class="muted">Applies to RideHC for iPhone, version 1.0. Last updated 26 October 2026.</p>
 
   <h2>The short version</h2>
-  <p>RideHC keeps everything on your phone. It has no account, no server and no analytics. The app contains no network code at all: nothing you record leaves the phone unless you export or share a file yourself.</p>
+  <p>RideHC keeps everything on your phone. It has no account of its own, no analytics and no tracking. Nothing you record leaves the phone unless you export or share a file yourself, or, if you connect Grepiac, tap <strong>Send to Grepiac</strong> on a finished ride. Connecting Grepiac, sending a ride and disconnecting are the only things in the app that use the internet.</p>
 
   <h2>What the app stores, and where</h2>
   <ul>
@@ -44,7 +44,7 @@
   <p>All of it is stored in the app's own storage on your iPhone, protected by the device's encryption and your passcode. The app does not use HealthKit and does not read or write Apple Health.</p>
 
   <h2>Heart rate and other health-related data</h2>
-  <p>Heart rate, body temperature and muscle oxygen are health-related measurements. RideHC records them only to show them to you during the ride and to write them into your ride files. They are never sent anywhere by the app, never used for advertising, and never shared with anyone unless you share a file.</p>
+  <p>Heart rate, body temperature and muscle oxygen are health-related measurements. RideHC records them only to show them to you during the ride and to write them into your ride files. They are never used for advertising, and they leave the phone only in a file you share or a ride you send to Grepiac yourself.</p>
 
   <h2>Bluetooth</h2>
   <p>RideHC asks for Bluetooth so it can read your sensors and set the resistance on a smart trainer. It keeps Bluetooth running in the background so a ride keeps recording with the screen off. It does not use Bluetooth for anything else.</p>
@@ -52,14 +52,19 @@
   <h2>Files you export or share</h2>
   <p>You can export a ride as a FIT file, a CSV file and a JSON archive, and share them with the system share sheet, AirDrop or Files. Those files contain the ride's data and the profile values the ride used, such as your name, FTP and weight. Once a file has left the phone it is governed by whatever service you sent it to, not by RideHC.</p>
 
+  <h2>Sending a ride to Grepiac (optional)</h2>
+  <p><a href="https://grepiac.com/">Grepiac</a> is a coaching platform run by the same developer as RideHC. If you have a Grepiac account, you can connect it in RideHC's Settings: you sign in on grepiac.com in a secure Apple sign-in sheet, and Grepiac asks you to approve one permission, to upload activities. RideHC never sees your Grepiac password, name or email; it keeps only the sign-in token Grepiac gives it, in the iPhone's Keychain on this device.</p>
+  <p>Nothing is sent when you connect. A ride goes to Grepiac only when you tap <strong>Send to Grepiac</strong> on its summary, one ride per tap; nothing is sent in the background and nothing is retried on its own. What is sent is that ride's FIT file: the ride's measurements (power, cadence, speed, distance, heart rate, core and skin temperature, muscle oxygen), its laps and the targets the app set; the names, serial numbers and firmware versions of the sensors that recorded it; and a number RideHC makes up for this installation of the app, which is not your iPhone's identifier. It does not contain your name, weight, FTP or birth date. On Grepiac the ride is added to your activities, where you and your coach can see it, and it can mark the matching planned session completed. Grepiac's handling of it is described in <a href="https://grepiac.com/privacy/">Grepiac's privacy notice</a>.</p>
+  <p>You can disconnect at any time with Disconnect in RideHC's Settings, or by removing RideHC under Settings → Connected apps on grepiac.com. Rides you have already sent stay on Grepiac until you delete them there.</p>
+
   <h2>Deleting your data</h2>
-  <p>Deleting the app from your iPhone deletes everything it stored. Exported files you have saved elsewhere are not affected.</p>
+  <p>Deleting the app from your iPhone deletes everything it stored. Exported files you have saved elsewhere are not affected, and neither are rides you sent to Grepiac. If you connected Grepiac, disconnect first, or remove RideHC under Connected apps on grepiac.com afterwards; otherwise the link expires on its own within 30 days. A new installation of RideHC never reuses an old sign-in.</p>
 
   <h2>Children</h2>
   <p>RideHC is not directed at children under 13.</p>
 
   <h2>Changes</h2>
-  <p>If a future version changes what the app does with your data — for example, an optional link to a coaching platform — this page will say so before that version is released, with the date of the change.</p>
+  <p>If a future version changes what the app does with your data, this page will say so before that version is released, with the date of the change. 26 October 2026: added the optional link to Grepiac.</p>
 
   <h2>Contact</h2>
   <p><a href="mailto:info@ridehc.com">info@ridehc.com</a></p>
